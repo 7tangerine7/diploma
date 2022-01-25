@@ -22,7 +22,7 @@ def alg():
     cv2.imshow("final", final)
     cv2.waitKey(0)
 
-D = 12
+D = 11
 alpha = 3
 file_path_r = Path("im0.ppm").resolve()
 left = cv2.imread(str(file_path_r), cv2.IMREAD_GRAYSCALE)
